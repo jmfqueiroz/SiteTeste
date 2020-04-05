@@ -64,6 +64,8 @@ namespace SalesWebMvc.Migrations
 
                     b.Property<string>("Name");
 
+                    b.Property<string>("Email");
+
                     b.HasKey("Id");
 
                     b.HasIndex("DepartmentId");
